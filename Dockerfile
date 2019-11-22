@@ -1,4 +1,4 @@
-FROM fedora:24
+FROM fedora:latest
 MAINTAINER Seth Jennings <sethdjennings@gmail.com>
 
 RUN dnf install certbot -y && dnf clean all
